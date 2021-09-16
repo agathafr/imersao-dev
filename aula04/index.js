@@ -1,5 +1,5 @@
 var listaFilmes = ["Yesterday", "A Chegada", "Escola de Rock"]
 
-document.write("<p>" + filmeUm + "</p>")
-document.write("<p>" + filmeDois + "</p>")
-document.write("<p>" + filmeTres + "</p>")
+document.write("<p>" + listaFilmes[0] + "</p>")
+document.write("<p>" + listaFilmes[1] + "</p>")
+document.write("<p>" + listaFilmes[2] + "</p>")
