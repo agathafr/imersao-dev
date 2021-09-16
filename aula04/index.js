@@ -1,6 +1,4 @@
-var filmeUm = "Yesterday"
-var filmeDois = "A Chegada"
-var filmeTres = "Escola de Rock"
+var listaFilmes = ["Yesterday", "A Chegada", "Escola de Rock"]
 
 document.write("<p>" + filmeUm + "</p>")
 document.write("<p>" + filmeDois + "</p>")
