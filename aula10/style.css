@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: #ECF4FF;
+    color: #1C1C1C;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px 0px #0E1D2F;
+    padding: 64px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dark {
+    background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .container {
+    background: #333439;
+    color: #F6F6F6;
+}
+
+.dark .projects {
+    color: #1C1C1C;
+}
+
+.dark .theme button {
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    border: 2px solid #f7f7f7; 
+}
+
+
+.profile {
+    display: flex;
+}
+
+.profile-photo {
+    border-radius: 460px;
+    max-height: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+    margin-left: 16px;
+}
+
+.title h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.title h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.theme button {
+    align-self: flex-end;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 8px 16px;
+    background: #ECF4FF;
+    border-radius: 100px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;  
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projects-title {
+    list-style: none;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.projects-item {
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.projects-item a {
+    color: #1C1C1C;
+    text-decoration: none;
+}
