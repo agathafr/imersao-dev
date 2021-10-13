@@ -48,7 +48,7 @@ function sortearCarta() {
     document.getElementById("btnSortear").desabled = true
     document.getElementById("btnJogar").desablid = false
 
-    exibirCartaJogador() 
+    exibirCartaJogador()
 }
 
 function obtemAtributoSelecionado() {
@@ -91,7 +91,7 @@ function exibirCartaJogador() {
     var opcoesTexto = ""
 
     for (var atributo in cartaJogador.atributos) {
-        opcoesTexto += "<input type='radio' name='atributo' value='" + atributo + "'>" + atributo + " " + cartaJogador.atributos[atributo] + "<br>" 
+        opcoesTexto += "<input type='radio' name='atributo' value='" + atributo + "'>" + atributo + " " + cartaJogador.atributos[atributo] + "<br>"
     }
 
     var nome = `<p class="carta-subtitle">${cartaJogador.nome}</p>`
@@ -108,7 +108,7 @@ function exibirCartaMaquina() {
     var opcoesTexto = ""
 
     for (var atributo in cartaMaquina.atributos) {
-        opcoesTexto += "<p type='text' name='atributo' value='" + atributo + "'>" + atributo + " " + cartaMaquina.atributos[atributo] + "</p>" 
+        opcoesTexto += "<p type='text' name='atributo' value='" + atributo + "'>" + atributo + " " + cartaMaquina.atributos[atributo] + "</p>"
     }
 
     var nome = `<p class="carta-subtitle">${cartaMaquina.nome}</p>`
