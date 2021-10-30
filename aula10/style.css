@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 body {
     background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
     font-family: 'Roboto', sans-serif;
@@ -35,9 +34,8 @@ body {
 .dark .theme button {
     background-color: #1C1C1C;
     color: #FFFFFF;
-    border: 2px solid #f7f7f7; 
+    border: 2px solid #f7f7f7;
 }
-
 
 .profile {
     display: flex;
@@ -73,13 +71,13 @@ body {
 }
 
 .projects {
-  display: flex;
-  flex-direction: column;  
-  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
-  margin-top: 32px;
-  padding: 32px;
-  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
-  border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+    margin-top: 32px;
+    padding: 32px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
 }
 
 .projects-title {
